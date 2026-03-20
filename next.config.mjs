@@ -16,8 +16,8 @@ const nextConfig = {
 export default nextConfig
 ```
 
-Save it (`Cmd + S`), then back in the terminal run:
+Save it, then run:
 ```
 git add .
-git commit -m "Fix image config"
+git commit -m "Fix next config"
 git push
