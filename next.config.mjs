@@ -14,10 +14,3 @@ const nextConfig = {
   },
 }
 export default nextConfig
-```
-
-Save it, then run:
-```
-git add .
-git commit -m "Fix next config"
-git push
