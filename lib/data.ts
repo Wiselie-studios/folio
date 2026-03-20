@@ -41,7 +41,34 @@ export const invitedUsers: InvitedUser[] = [
 export const albums: Album[] = []
 
 // Photos
-export const photos: Photo[] = []
+export const photos: Photo[] = [
+  {
+    id: "1",
+    url: "https://res.cloudinary.com/wiselielabs/image/upload/v1773994506/fqs_2025-06-13_215234.540_egzyzj.jpg",
+    width: 3,
+    height: 4,
+    people: ["Christina", "Caela"],
+    date: "2025-06-13",
+    location: "Harbor House Cafe",
+    vibe: "lifestyle",
+    shotOn: "Dazz Cam",
+    likes: 0,
+    likedBy: [],
+  },
+  {
+    id: "2",
+    url: "https://res.cloudinary.com/wiselielabs/image/upload/v1773994507/fqs_2025-06-13_215720.814_mo6oqw.jpg",
+    width: 3,
+    height: 4,
+    people: ["Christina", "Caela"],
+    date: "2025-06-13",
+    location: "Harbor House Cafe",
+    vibe: "lifestyle",
+    shotOn: "Dazz Cam",
+    likes: 0,
+    likedBy: [],
+  },
+]
 
 // Get unique values for filters
 export const getAllPeople = () => {
