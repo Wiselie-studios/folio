@@ -32,13 +32,9 @@ export interface InvitedUser {
   isAdmin: boolean
 }
 
-// Mock invited users
+// invited users
 export const invitedUsers: InvitedUser[] = [
-  { email: "alex@example.com", name: "Alex", isAdmin: true },
-  { email: "jordan@example.com", name: "Jordan", isAdmin: false },
-  { email: "sam@example.com", name: "Sam", isAdmin: false },
-  { email: "taylor@example.com", name: "Taylor", isAdmin: false },
-  { email: "casey@example.com", name: "Casey", isAdmin: false },
+  { email: "mj@wiselie.co", name: "Michael Junyer", isAdmin: true },
 ]
 
 // Mock albums
