@@ -125,7 +125,7 @@ export const photos: Photo[] = [
     url: "https://res.cloudinary.com/wiselielabs/image/upload/v1774233656/IMG_0724_twnkfe.jpg",
     width: 3,
     height: 4,
-    people: ["MJ Jones", "Lola". "Cohen Swift", "Grace Rawlins", "Sofia Toledo", "Greysa Lemons"],
+    people: ["MJ Jones", "Lola","Cohen Swift", "Grace Rawlins", "Sofia Toledo", "Greysa Lemons"],
     date: "2026-03-21",
     location: "The Getty",
     vibe: "lifestyle",
